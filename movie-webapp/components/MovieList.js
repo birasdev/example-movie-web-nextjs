@@ -32,7 +32,7 @@ const MovieList = (props) => {
             </div>
             )
           })
-        : <div class="ml-3 alert alert-warning" role="alert">
+        : <div className="ml-3 alert alert-warning" role="alert">
             There are no movies for selected category :(
           </div>
       }
