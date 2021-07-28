@@ -4,7 +4,7 @@ import Link from 'next/link'
 import SideMenu from '../components/sideMenu'
 import Carousel from '../components/Carousel'
 import MovieList from '../components/MovieList'
-import Footer from '../components/footer'
+import Footer from '../components/Footer'
 import { getMovies, getCategories } from '../actions'
 
 const MAX_IMAGES = 3
